@@ -60,9 +60,12 @@ p.paragraph {
   color: rgba(0,0,0,.5);
 }
 .logo {
-  font-size: 40px;
+  font-size: 30px;
   line-height: 30px;
-  font-weight: 900;
+  font-weight: normal;
+  position:absolute;
+  transform: translate(70px,-35px);
+
 }
 @media (max-width: 420px) {
   .logo {
@@ -145,6 +148,15 @@ p.paragraph {
 .col-12 {width: 100%;}
 
 /*containers*/
+.header0{
+	background-color:#fff;
+	color:#056dad;
+	margin: 20px;
+}
+.header0 img{
+	width:45px;
+	height: auto;
+}
 .container-lrg,
 .container-sml {
   margin: auto;
@@ -169,10 +181,7 @@ p.paragraph {
 .header .sidedevices {
 	margin: 60px 0 0
 }
-.header img{
-	width:35px;
-	height: auto;
-}
+
 @media (max-width: 900px) {
 	.header .sidedevices {
 		min-height: inherit;
@@ -252,6 +261,7 @@ p.paragraph {
 	letter-spacing: .3px;
 	border: 1px solid white;
 	text-decoration: none;
+	margin-left: 0;
 }
 .ctas-button-2 {
 	background: transparent;
@@ -264,9 +274,10 @@ p.paragraph {
 		display: block;
 		width: 100%;
 		text-align: center;
+		margin-left: 0;
 	}
 	.ctas-button-2 {
-		margin: 10px 0 0 0;
+		margin: 0 0 0 0;
 	}
 }.footer {
 	border-top: 1px solid rgba(0,0,0,.1);
@@ -320,7 +331,7 @@ p.paragraph {
 .feature3 img{
 	height:60px;
 	width:auto;
-	margin-bottom: 10px;
+	margin-bottom: 40px;
 }
 @media (max-width: 750px) {
   .feature3 .emoji {
