@@ -139,11 +139,7 @@ p.paragraph {
   font-weight: normal;
   padding-left: 20px;
 }
-@media (max-width: 420px) {
-  .logo {
-    font-size: 22px;
-  }
-}
+
 .header0{
 	background-color:#fff;
 	color:#056dad;
